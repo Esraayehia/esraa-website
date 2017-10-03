@@ -48,3 +48,12 @@ function showSlides() {
 function search(){
 document.getElementById("tx").style.display='block';
 }
+
+document.getElementById("h").addEventListener("click",function homee() {
+  document.getElementById("h").style.color="aqua";
+    //document.getElementById("h").style.="20px";
+});
+
+document.getElementById("btn").addEventListener("click",function btnn(){
+  document.getElementById("btn").style.backgroundColor="coral";
+})

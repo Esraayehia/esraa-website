@@ -33,9 +33,22 @@ body{
 }
 /*------------ to here*/
 .first{
-  margin: 0; height: 45px; box-sizing: border-box;
+  /*margin: 0;*/ height: 70px; box-sizing: border-box;width: 100%;
 
-  background-color: black;margin-bottom:  1px; padding-top: 1px;
+  background-color: black;/*margin-bottom:  1px; */padding-top: 1px;
+  } .fa-home{
+    margin: 15px auto 3px 5px;
+  }
+
+ .first .fa-facebook{
+  float: right;
+  margin: 15px auto 3px 8px;
+}
+.first .fa-twitter{
+  float: right; margin: 15px auto 3px 8px;
+}
+.first .fa-linkedin{
+  float: right;margin: 15px auto 3px 8px;
 }
 .first a{
   text-decoration:none;
@@ -45,13 +58,13 @@ font-size: 30px;padding-bottom: 20px; color: white;
  margin: 20px ;padding-bottom: 10px; padding-top: 20px;
 
 }
-.btn1{
-  font-family: serif;  font-size: 12px;float: right; margin-bottom: 6px;
-  cursor: pointer;
+ #btn{
+  font-family: serif;  font-size: 12px;float: right;
+  cursor: pointer;padding-top: 2px;
 }
 
 #lang{
-  padding-bottom: 20px; color: white; margin: 9px auto;float: right;
+  padding-bottom: 20px; color: white; margin: 15px auto 3px 12px;float: right;
 }
 /*?????????????????????????????????? how!!!*/
 #tx{
@@ -68,10 +81,10 @@ font-size: 30px;padding-bottom: 20px; color: white;
  /* .mySlides .dh1 h1{
   text-align: center;text-shadow: 3px 3px #3c3c3c;
   font-size: 60px; margin-left: 300px;
-}*/
-.div1{
+}*====================================================/
+/*.first .div1{
   float: right; padding: 4px; margin: 2px;
-}
+}*/
 .fa {
   display:inline;
 padding: 2px; margin-right: 1px;
@@ -80,14 +93,14 @@ padding: 2px; margin-right: 1px;
   text-align: center;
   text-decoration: none;
 border-radius: 50%;
-}
+}/*
 .fa-home:hover{
   opacity: .8;
    color:aqua ;
    border-top: 0.5px solid cyan;
    border-left: 0.5px solid cyan;
    border-right: 0.5px solid cyan;
-}
+}*/
 .fa-facebook{
   background: #3B5998;
  color: white;

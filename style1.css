@@ -66,10 +66,12 @@ font-size: 30px;padding-bottom: 20px; color: white;
 #lang{
   padding-bottom: 20px; color: white; margin: 15px auto 3px 12px;float: right;
 }
+
 /*?????????????????????????????????? how!!!*/
-#tx{
-  border: none;
-  border-bottom: 1px dotted #DDD;
+ .first #tx{
+  border: none; border-radius: 7px;padding-right: 3px;text-align: center;
+   float: right; margin-left: 8px;width: 150px; background-color: grey;
+   color: white; font-size: 18px; font-family:arial;
 /*---------------------------*/
 
 }

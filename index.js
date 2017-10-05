@@ -22,7 +22,7 @@ function setColor() {
    x1 : url("q1.jpeg");
 }------------------------------*/
 function win(){
-  var myWin=window.open("index2.html","_blank",width="200",height="100",);
+  var myWin=window.open("file2/index2.html","_blank",width="200",height="100",);
 }
 function win2(){
   var myWin2=window.open("index3.html","_blank",);
